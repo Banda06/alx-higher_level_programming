@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
-     """function that returns tuple with the length of a str and its first, character"""
-    my_tuple = ()
-    if len(sentence) == 0:
-        my_tuple = 0, "None"
+    length = len(sentence)
+    if length == 0:
+        first_char = None
+        _tuple = (length, first_char)
+        return _tuple
     else:
-        my_tuple = len(sentence), sentence[0]
-    return my_tuple
+        first_char = sentence[0]
+        _tuple = (length, first_char)
+        return _tuple
