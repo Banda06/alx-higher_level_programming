@@ -1,4 +1,3 @@
-0x0C. Python - Almost a circle
 Background Context
 The AirBnB project is a big part of the Higher level curriculum. This project will help you be ready for it.
 
@@ -19,6 +18,16 @@ You will also learn about:
 args and kwargs
 Serialization/Deserialization
 JSON
+
+Resources
+Read or watch:
+
+args/kwargs
+JSON encoder and decoder
+unittest module
+Python test cheatsheet
+Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
 What is Unit testing and how to implement it in a large project
@@ -53,16 +62,3 @@ Your file organization in the tests folder should be the same as your project: e
 All your tests should be executed by using this command: python3 -m unittest discover tests
 You can also test file by file by using this command: python3 -m unittest tests/test_models/test_base.py
 We strongly encourage you to work together on test cases so that you don’t miss any edge case
-
-0. If it's not tested it doesn't work
-File: tests/
-
-
-1. Base class
-File: models/base.py, models/__init__.py
-
-2. First Rectangle
-models/rectangle.py
-
-3. Validate attributes
-File: models/rectangle.py
